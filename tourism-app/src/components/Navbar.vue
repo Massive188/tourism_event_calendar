@@ -1,4 +1,6 @@
 <!-- src/components/Navbar.vue -->
+ import VueGridLayout from 'vue-grid-layout';
+
 <template>
   <nav class="navbar">
     <div class="navbar-container">
@@ -46,7 +48,9 @@ export default {
       this.isMenuActive = !this.isMenuActive;
     }
   }
+  
 };
+
 </script>
 
 <style scoped>
