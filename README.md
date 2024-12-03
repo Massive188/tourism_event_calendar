@@ -1,5 +1,5 @@
 # tourism_event_calendar
-To create a robust **events aggregator and community calendar platform** using **web technologies (HTML5, CSS3, JavaScript ES6+)**, and leveraging **cross-platform responsiveness** and **RESTful APIs**, follow these guidelines:
+ **events aggregator and community calendar platform** using **web technologies (HTML5, CSS3, JavaScript ES6+)**, and leveraging **cross-platform responsiveness** and **RESTful APIs**, follow these guidelines:
 
 ---
 
