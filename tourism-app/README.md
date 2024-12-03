@@ -39,4 +39,3 @@
 
 ---
 
-Would you like sample code snippets for any of these components?
