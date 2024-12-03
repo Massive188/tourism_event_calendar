@@ -1,5 +1,5 @@
 # tourism_event_calendar
- **events aggregator and community calendar platform** using **web technologies (HTML5, CSS3, JavaScript ES6+)**, and leveraging **cross-platform responsiveness** and **RESTful APIs**, follow these guidelines:
+ **Events aggregator and community calendar platform** using **web technologies (HTML5, CSS3, JavaScript ES6+)**, and leveraging **cross-platform responsiveness** and **RESTful APIs**
 
 ---
 
