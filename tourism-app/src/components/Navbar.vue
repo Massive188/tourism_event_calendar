@@ -13,50 +13,60 @@
             </svg>
           </button>
         </div>
-        <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-          <a href="#" class="flex-shrink-0 text-white text-xl font-bold">
-            <img src="../assets/images/eventhub.png" alt="Event_logo" class="h-10 w-10">
+        <div class="flex-1 flex items-center justify-center sm:justify-start">
+          <a href="#" class="flex-shrink-0">
+            <img src="../assets/images/eventhub.png" alt="GameHub Logo" class="h-8 w-8">
           </a>
-          <div class="hidden sm:block sm:ml-6">
-            <div class="flex space-x-4">
-              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Events</a>
-              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calendar View</a>
-              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Submit Event</a>
-            </div>
-          </div>
         </div>
-        <div class="hidden sm:block sm:ml-6">
-          <div class="flex items-center">
-            <div class="relative">
-              <input type="text" placeholder="Search events..." class="bg-gray-700 text-white rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+        <div class="hidden sm:flex sm:items-center sm:justify-center flex-1">
+          <div class="flex space-x-4">
+            <div class="relative group">
+              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">News</a>
+              <div class="absolute hidden group-hover:block bg-gray-700 text-white rounded-md mt-1 z-10" style="width: 200px;">
+                <a href="#" class="block px-4 py-2">Latest News</a>
+                <a href="#" class="block px-4 py-2">Updates</a>
+                <a href="#" class="block px-4 py-2">Patch Notes</a>
+              </div>
             </div>
-            <div class="ml-3 relative">
-              <div class="flex space-x-4">
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Sign Up</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">My Events</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Notifications</a>
+            <div class="relative group">
+              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Community</a>
+              <div class="absolute hidden group-hover:block bg-gray-700 text-white rounded-md mt-1 z-10" style="width: 200px;">
+                <a href="#" class="block px-4 py-2">Forums</a>
+                <a href="#" class="block px-4 py-2">Clans</a>
+                <a href="#" class="block px-4 py-2">Events</a>
+              </div>
+            </div>
+            <div class="relative group">
+              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Support</a>
+              <div class="absolute hidden group-hover:block bg-gray-700 text-white rounded-md mt-1 z-10" style="width: 200px;">
+                <a href="#" class="block px-4 py-2">Help Center</a>
+                <a href="#" class="block px-4 py-2">Contact Us</a>
+                <a href="#" class="block px-4 py-2">FAQ</a>
+              </div>
+            </div>
+            <div class="relative group">
+              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Events</a>
+              <div class="absolute hidden group-hover:block bg-gray-700 text-white rounded-md mt-1 z-10" style="width: 200px;">
+                <a href="#" class="block px-4 py-2">Upcoming Events</a>
+                <a href="#" class="block px-4 py-2">Past Events</a>
+                <a href="#" class="block px-4 py-2">Event Calendar</a>
               </div>
             </div>
           </div>
+        </div>
+        <div class="hidden sm:flex sm:items-center">
+          <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</a>
         </div>
       </div>
     </div>
 
     <div class="sm:hidden" id="mobile-menu" :class="{ hidden: !isMenuActive }">
       <div class="px-2 pt-2 pb-3 space-y-1">
-        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">News</a>
+        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Community</a>
+        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Support</a>
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Events</a>
-        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar View</a>
-        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Submit Event</a>
-        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Sign Up</a>
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Login</a>
-        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">My Events</a>
-        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Notifications</a>
-        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About Us</a>
-        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact/Support</a>
-        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Help/FAQ</a>
       </div>
     </div>
   </nav>
@@ -78,5 +88,5 @@ export default {
 </script>
 
 <style scoped>
-/* Add any additional scoped styles here */
+/* set any additional scoped styles here for reminder */
 </style>
