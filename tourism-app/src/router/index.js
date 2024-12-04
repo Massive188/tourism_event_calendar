@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
+import VueGridLayout from 'vue-grid-layout';
+
 
 const routes = [
   {
