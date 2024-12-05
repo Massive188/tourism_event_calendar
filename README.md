@@ -1,7 +1,6 @@
 # tourism_event_calendar
- **Events aggregator and community calendar platform** using **web technologies (HTML5, CSS3, JavaScript ES6+)**, and leveraging **cross-platform responsiveness** and **RESTful APIs**
 
----
+
 
 ### **Frontend Development:**
    - **HTML5**: Structure content semantically, including `<header>`, `<nav>`, and `<main>` elements for better SEO and accessibility.
